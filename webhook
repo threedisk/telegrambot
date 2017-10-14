@@ -24,6 +24,7 @@ $usernamebot= "@sutrisbot"; // sesuaikan besar kecilnya, bermanfaat nanti jika b
 $debug = false;
  
 // fungsi untuk mengirim/meminta/memerintahkan sesuatu ke bot 
+$offset=1;
 function request_url($method)
 {
     global $TOKEN;
